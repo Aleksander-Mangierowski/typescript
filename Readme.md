@@ -1,4 +1,5 @@
-###Fight with Typescript
+### Fight with Typescript
+
 
 You have to create game “Fight”. There will be two types of fighters: fighter and improved fighter.
 
@@ -20,10 +21,10 @@ Create async function ”fight” with such parameters as fighter, improvedFight
 
 This function should start the game and may have different number of parameters. For example, fight (fighter, improvedFighter, 25, 13, 45), where point = [25, 13, 45]. Players hit each other one by one with method “hit” which takes a point as an argument. If one of the players has less health then 0, you print to console that user in knockout and call “knockout” method. You should wait until promise is resolved and print to console the result of the fight.
 
-###Instalation
+### Instalation
 
-npm install
+- npm install
 
-npm run start
+- npm run start
 
-localhost:4040
+- localhost:4040
